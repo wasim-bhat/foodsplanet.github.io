@@ -1,0 +1,70 @@
+*{
+     box-sizing: border-box;
+}
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 15px 30px;
+     font-size: 17px;
+     padding: 8px;
+}
+.container{
+     background: #f2f2f2;
+     padding: 5px 20px 15px 20px;
+     border: 1px solid green;
+     border-radius: 4px;
+     height: 100%;
+     width: 70%;
+     margin-left: 18rem;
+     margin-top: 10rem;
+     margin-bottom: 20rem;
+}
+input[type="text"],
+input[type="email"],
+
+input[type="password"],
+
+select,
+textarea{
+     width: 50%;
+     padding:12px;
+     border:1px solid #ccc;
+     border-radius: 5px;
+     margin: 10px;
+}
+input[type="number"]{
+     width: 40%;
+     padding: 12px;
+     border: solid #ccc;
+     border-radius: 5px;
+     margin:10px;
+
+}
+fieldset{
+     background: #fff;
+     border:1px solid #ccc;
+
+
+}
+.main_heading{
+     text-align: center;
+}
+input[type="submit"]{
+     background-color:red;
+     width: 100%;
+     padding: 10px;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+input[type="submit"]:hover{
+     background-color:green;
+
+}
+
+#expiry{
+     height: 2rem;
+     width: 15rem;
+     margin-left: 1rem;
+}

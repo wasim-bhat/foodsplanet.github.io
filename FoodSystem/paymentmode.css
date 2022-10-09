@@ -1,0 +1,26 @@
+*{
+     box-sizing: border-box;
+}
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 15px 30px;
+     font-size: 17px;
+     padding: 8px;        
+}
+.paymentmode{
+     margin-top: 10rem;
+     margin-bottom: 20rem;
+}
+span{
+     background-color: burlywood;
+}
+#sypm{
+     text-align: left;
+}
+a{
+     text-decoration: none;
+}
+.paymode{
+     background-color:green;
+     color: white;
+}

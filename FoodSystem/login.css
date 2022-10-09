@@ -1,0 +1,63 @@
+*{
+     box-sizing: border-box;
+}
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 8px;
+     font-size: 17px;
+     padding: 8px;
+     background-color: whitesmoke;
+}
+#container{
+     margin-top: 10rem;
+     margin-bottom: 20rem;
+     
+}
+#title{
+     text-align: center;
+     color: crimson;
+}
+#ac{
+     text-align: center;
+}
+#pass,#user,#sub{
+     width:20%;
+     padding: 5px;
+     margin:5px;
+     border-radius: 5px;
+     height: 3rem;
+}
+#sub{
+     background-color:black;
+     color:white;
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 16px;
+}
+#sub:hover{
+background-color:green;
+}
+#res{
+     cursor: pointer;
+     padding: 3px;
+     margin: 5px;
+     margin-top: 3rem;
+}
+#res:hover{
+     background-color: green;
+     color: white;
+}
+#new{
+     cursor: pointer;
+     padding: 4px;
+     margin: 5px;
+     background-color:blanchedalmond;
+     border-radius: 5px;
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     border: 2px solid black;
+}
+#new:hover{
+background-color: green;
+color: white;
+}

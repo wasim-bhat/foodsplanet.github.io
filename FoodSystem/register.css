@@ -1,0 +1,69 @@
+*{
+     box-sizing: border-box;
+}
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+     font-size: 17px;
+     padding: 8px;
+
+        
+}
+form{
+     margin-top: 10rem;
+     margin-bottom: 20rem;
+}
+
+#first,#epass,#cpass{
+     width: 20%;
+     margin: 6px;
+     padding: 5px;
+     border-radius: 5px;
+     height: 3rem;
+}
+#but{
+     text-align: center;
+    
+     padding: 5px;
+     margin: 5px;
+}
+#regis{
+     width: 10%;
+     padding:5px;
+     margin:5px;
+     background-color: rgb(63, 8, 171);
+     border-radius: 6px;
+     cursor: pointer;
+     color: aliceblue;
+
+}
+
+#register{
+     text-align: center;
+     
+}
+#regis:hover{
+     background-color: green;
+     color: white;
+     }
+#log{
+     background: rgb(214, 17, 17);
+     cursor: pointer;
+     color: aliceblue;
+     border-radius: 6px;
+     text-decoration: none;
+     border: 2px solid black;
+     padding:2px;
+     margin: 2px;
+}
+#log:hover{
+background-color: green;
+color: white;
+}
+#title{
+     text-align: center;
+     color: crimson;
+     
+}
+
+
